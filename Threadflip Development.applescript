@@ -1,4 +1,6 @@
 tell application "iTerm"
+	launch
+
 	# Threadflip/threadflip: zeus start
 	set zeus to (make new terminal)
 	tell zeus
